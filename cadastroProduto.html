@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Cadastro de produtos</title>
+        <link rel="stylesheet" href="layout1.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id ="tit">
+        <h3> Cadastrar produto </h3>
+        </div>
+      
+            <div id="cadastrar">
+        <form>
+            <label for="descrição" > Descrição </label> <br>
+            <input type="text" name="descrição" > 
+            <br>
+            
+            <br> <label for="preço" > Preço </label> <br>
+            <input type="text" name="preço" >
+            <br>
+            
+            <br> <label for="fichatecnica" > Ficha Técnica </label> <br>
+            <textarea name="texto"></textarea>
+            <br>
+            
+            <br> <label for="categoria" > Categoria </label> <br>
+            <select name="categoria">
+                    <option>Selecione a categoria</option>
+                    <option>Itens de decoração</option>
+                    <option>Vestuário</option>
+                    <option>Livros</option>
+                    <option>Colecionáveis</option>
+                    <option>Brinquedos</option>
+            </select>
+            <br>
+            
+            <br> <label for="upload" > Upload de imagem do produto </label> <br>
+            <input type="url" name="url">
+            <br>
+            
+            <br> <button class="botao" type="submit"> Cadastrar </button>
+            
+        </form>
+                
+                <a id="cadastrados" href="produtosCadastrados.html" > <strong> Produtos já cadastrados</strong></a>
+        
+        </div>
+        <a id="voltar" href="inicio.html" > Voltar a página inicial</a>
+        
+        <div id="rodape">
+            <img id="pag" src="rodape.jpeg" alt="pagamentos">
+            <img id="redes" src="redes.jpeg" alt="redessociais">
+            <div id="linkr">
+            <table>
+                <tr>
+                <li> <a href="sobrealoja.html"> Sobre nós </a></li>
+                <li> <a href="cadastroProduto.html"> Página do administrador </a></li>
+                </tr>
+            </table>
+            </div>
+        </div>
+        
+    </body>
+</html>
